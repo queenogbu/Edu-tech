@@ -67,40 +67,6 @@ const Header = () => {
                 </nav>
             </div>
         </div>
-
-        <div className="row my-4">
-            <div className="col-2-5">
-                <button className="header-btn">
-                    <i className="fa fa-bars"></i>
-                    <div className="d-inline-block px-3">PROGRAMS</div>
-                    <i className="fa fa-angle-down"></i>
-                </button>
-            </div>
-            <div className="col-5-5">
-                <div className="input-group">
-                    <button className="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Search for courses</button>
-                    <ul className="dropdown-menu">
-                        <li>
-                            <a className="dropdown-item" href="#">Action before</a>
-                        </li>
-                        <li>
-                            <a className="dropdown-item" href="#">Another action before</a>
-                        </li>
-                        <li>
-                            <a className="dropdown-item" href="#">Something else here</a>
-                        </li>
-                        <li><hr className="dropdown-divider" /></li>
-                        <li>
-                            <a className="dropdown-item" href="#">Separated link</a>
-                        </li>
-                    </ul>
-                    <input type="text" className="form-control" aria-label="Text input with 2 dropdown buttons" placeholder="Search" />
-                    <button className="px-5 header-btn">
-                        <i className="fa fa-search"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
             
     </header>
   );
