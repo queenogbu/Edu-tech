@@ -11,18 +11,12 @@ const HomePage = () => {
             <div className="col-2 main-sidebar small">
                 <div className="card">
                     <nav className="nav flex-column">
-                        <a className="nav-link" href="#"><i className="fa fa-history"></i> History</a>
-                        <a className="nav-link" href="#"><i className="fa fa-pie-chart"></i> Programming</a>
-                        <a className="nav-link" href="#"><i className="fa fa-dashboard"></i> Digital Marketting</a>
-                        <a className="nav-link" href="#"><i className="fa fa-laptop"></i> Computer Science</a>
-                        <a className="nav-link" href="#"><i className="fa fa-universal-access"></i> Enterpreneurial Operations</a>
-                        <a className="nav-link" href="#"><i className="fa fa-server"></i> Data Science</a>
-                        <a className="nav-link" href="#"><i className="fa fa-institution"></i> Marketing Management</a>
-                        <a className="nav-link" href="#"><i className="fa fa-circle"></i> Climate Change</a>
-                        <a className="nav-link" href="#"><i className="fa fa-barcode"></i> Economics</a>
-                        <a className="nav-link" href="#"><i className="fa fa-crop"></i> UI/UX</a>
-                        <a className="nav-link" href="#"><i className="fa fa-heartbeat"></i> Health and Nursing</a>
-                        <a className="nav-link" href="#"><i className="fa fa-chevron-down"></i> More Categories</a>
+                        
+                        <a className="nav-link" href="/Programming"><i className="fa fa-pie-chart"></i> Programming</a>
+                        <a className="nav-link" href="/DigitalMarketting"><i className="fa fa-dashboard"></i> Digital-Marketting</a>
+                        <a className="nav-link" href="/ComputerScience"><i className="fa fa-laptop"></i> Computer-Science</a>
+                        <a className="nav-link" href="/DataScience"><i className="fa fa-server"></i> Data-Science</a>
+                        <a className="nav-link" href="/Economics"><i className="fa fa-barcode"></i> Economics</a>
                     </nav>
                 </div>
             </div>
@@ -34,18 +28,11 @@ const HomePage = () => {
                     <div className="col-3 main-sidebar small">
                         <div className="card">
                             <nav className="nav flex-column">
-                                <a className="nav-link" href="#"><i className="fa fa-history"></i> History</a>
-                                <a className="nav-link" href="#"><i className="fa fa-pie-chart"></i> Programming</a>
-                                <a className="nav-link" href="#"><i className="fa fa-dashboard"></i> Digital Marketting</a>
-                                <a className="nav-link" href="#"><i className="fa fa-laptop"></i> Computer Science</a>
-                                <a className="nav-link" href="#"><i className="fa fa-universal-access"></i> Enterpreneurial Operations</a>
-                                <a className="nav-link" href="#"><i className="fa fa-server"></i> Data Science</a>
-                                <a className="nav-link" href="#"><i className="fa fa-institution"></i> Marketing Management</a>
-                                <a className="nav-link" href="#"><i className="fa fa-circle"></i> Climate Change</a>
-                                <a className="nav-link" href="#"><i className="fa fa-barcode"></i> Economics</a>
-                                <a className="nav-link" href="#"><i className="fa fa-crop"></i> UI/UX</a>
-                                <a className="nav-link" href="#"><i className="fa fa-heartbeat"></i> Health and Nursing</a>
-                                <a className="nav-link" href="#"><i className="fa fa-chevron-down"></i> More Categories</a>
+                                <a className="nav-link" href="/Baking"><i className="fa fa-birthday-cake"></i> Baking</a>
+                                <a className="nav-link" href="Tailoring"><i className="fa fa-text-width"></i> Tailoring</a>
+                                <a className="nav-link" href="/Painting"><i className="fa fa-paint-brush"></i> Painting</a>
+                                <a className="nav-link" href="HairStyling"><i className="fa fa-header"></i> Hair-Styling</a>
+                                <a className="nav-link" href="Capentry"><i className="fa fa-check-circle"></i> Capentry</a>
                             </nav>
                         </div>
                     </div>
