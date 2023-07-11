@@ -53,7 +53,7 @@ const LoginPage = () => {
                                     </div>
 
                                     <div className="text-end">
-                                        <button type="submit" className="btn btn-dark">Create Account</button>
+                                        <button type="submit" className="btn btn-dark">Login</button>
                                     </div>
                                 </form>
                             </div>
