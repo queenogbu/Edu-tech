@@ -5,7 +5,6 @@ const DigitalMarketting = () => {
     }, []);
 
     return (
-    
         <div>
             <h1 className='text-center display-4 fw-normal'>DIGITAL MARKETING</h1>
             <p className="lead text-center">
@@ -13,7 +12,6 @@ const DigitalMarketting = () => {
           </p>
         <hr />
           <div className="mt-5">
-
           <h3 className='display-6'>Introduction</h3>
           <p>
             Digital marketing is the promotion of products or services using digital technologies, such as the internet, mobile devices, search engines, social media, and more. In today's digital age, it has become essential for businesses of all sizes to have a strong online presence and leverage digital channels to reach their target audience effectively.
@@ -31,7 +29,6 @@ const DigitalMarketting = () => {
         <div className="row">
         <h3 className='my-4 display-6 fw-normal'>Types of Digital Marketing</h3>
 
-
               <h4 className=''>Search Engine Optimization (SEO)</h4>
               <p className=''>
               Search Engine Optimization (SEO) is the process of improving a website's visibility and rankings on search engine results pages (SERPs). The goal of SEO is to increase organic (non-paid) traffic to a website by optimizing various aspects that search engines consider important.
@@ -46,8 +43,6 @@ const DigitalMarketting = () => {
                 <li>Regularly create fresh and valuable content.</li>
               </ul>
 
-
-
               <h3>Search Engine Marketing (SEM)</h3>
               <p>
                 SEM involves promoting your website through paid advertising on search engine results pages. The most common form of SEM is pay-per-click (PPC) advertising, where you bid on keywords relevant to your business and pay when someone clicks on your ad.
@@ -59,8 +54,6 @@ const DigitalMarketting = () => {
                 <li>Write compelling ad copies and create relevant landing pages.</li>
                 <li>Monitor and optimize your campaigns based on performance metrics.</li>
               </ul>
-
-
 
               <h3>Social Media Marketing (SMM)</h3>
               <p>
@@ -76,8 +69,6 @@ const DigitalMarketting = () => {
                 <li>Utilize paid social media advertising options for wider reach.</li>
               </ul>
 
-
-
               <h3>Content Marketing</h3>
               <p>
                 Content marketing involves creating and distributing valuable and relevant content to attract and engage your target audience. It aims to build brand awareness, establish authority, and drive conversions.
@@ -90,8 +81,6 @@ const DigitalMarketting = () => {
                 <li>Optimize your content for search engines and share it on relevant platforms.</li>
                 <li>Promote your content through social media, email marketing, and other channels.</li>
               </ul>
-
-
 
               <h3>Email Marketing</h3>
               <p>
@@ -106,7 +95,6 @@ const DigitalMarketting = () => {
                 <li>Track and analyze email performance metrics to optimize future campaigns.</li>
               </ul>
 
-
         </div>
         <hr />
         <div className="row text-center">
@@ -116,13 +104,12 @@ const DigitalMarketting = () => {
              <div className='mt-4'>
 
                 <iframe width="1080" height="400" src="https://www.youtube.com/embed/rchKaSMQ__8" title="Digital Marketing Full Course 2023 | Digital Marketing Course | Digital Marketing | Simplilearn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
              </div>
         </div>
       </div>
         </div>
 
-     );
+        );
 };
 
 export default DigitalMarketting;

@@ -1,12 +1,9 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
 const ComputerScience = () => {
     useEffect(() => {
         document.title = 'ComputerScience';
     }, []);
-  useEffect(() => {
-    document.title = "ComputerScience";
-  }, []);
 
     return (
     <div>
@@ -22,7 +19,6 @@ const ComputerScience = () => {
           <p>
             This course is designed to provide you with a comprehensive understanding of the key concepts and strategies involved in digital marketing. Whether you are a small business owner, aspiring marketer, or someone looking to enhance their digital marketing skills, this course will equip you with the knowledge and tools to succeed in the digital landscape.
           </p>
-
         <hr />
 
 
@@ -179,14 +175,11 @@ These are just a few areas within computer science, and the field is constantly 
              <div className='mt-4'>
 
              <iframe width="1080" height="400" src="https://www.youtube.com/embed/8mAITcNt710" title="Harvard CS50 – Full Computer Science University Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
              </div>
         </div>
 
 
 </div>
-
-
   );
 };
 
